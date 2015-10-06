@@ -1,0 +1,1 @@
+nvcc -arch sm_11 --ptxas-options=-v -maxrregcount=64 --compiler-options="-Wall -ffast-math" -O3 -o gpumd13-lj-2 gpumd13-lj-2.cu
